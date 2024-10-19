@@ -1,0 +1,35 @@
+.tour-bg {
+    padding: 80px 0px;
+    text-align: center;
+    background-color: var(--cor-principal);
+}
+.header-feedback p {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 16px;
+}
+.tour-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.tour-container img{
+    max-width: 900px;
+}
+
+@media (max-width: 800px) {
+    .tour-container {
+        flex-direction: column;
+        padding: 0px 16px;
+    }
+    .tour-container  img {
+        max-width: 100%;
+    }
+    .header-tour {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

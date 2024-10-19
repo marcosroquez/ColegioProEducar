@@ -1,0 +1,111 @@
+.contato-bg {
+    padding: 100px 0px;
+}
+
+.contato-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.faq {
+    background-color: #FEF2D6;
+    padding: 32px
+}
+.formulario-bg {
+    background-color: var(--cor-salmao);
+    padding: 32px;
+    margin-bottom: 20px;
+    box-shadow:  0px -20px var(--cor-salmao);
+}
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+label {
+    display: none;
+}
+.formulario-bg form input {
+    margin: 8px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+
+}
+.formulario-bg form select {
+    margin: 8px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+
+}
+form {
+    display: grid;
+
+}
+
+.title-form {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    display: grid;
+    padding-top: 16px;
+  }
+
+  .accordion-item {
+    border: .5px solid var(--cor-texto-cinza);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .accordion-header {
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .accordion-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .accordion-content {
+    padding: 10px;
+    display: none;
+  }
+
+  .open .accordion-content {
+    display: block;
+  }
+
+  .accordion-icon {
+    font-size: 32px;
+    color: var(--cor-salmao);
+  }
+  .botao-enviar {
+    border: none;
+    background-color: var(--cor-principal);
+    grid-column: 1/-1;
+    justify-self: end;
+    margin-top: 8px;
+    margin-right: 8px;
+  }
+  @media (max-width: 800px) {
+        .contato-container{
+            grid-template-columns: 1fr;
+        }
+        .formulario-bg {
+           box-shadow: none;
+        }
+        .form-group {
+            grid-template-columns: 1fr;
+        }
+    }

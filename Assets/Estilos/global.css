@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap");
+
+:root {
+  --cor-principal: #0171c7;
+  --cor-destaque: #ed6229;
+  --cor-texto-preta: #00101c;
+  --cor-texto-cinza: #555555;
+  --cor-texto-branca: #ffffff;
+  --cor-rosa-choque: #ed2982;
+  --cor-verde: #16d5a0;
+  --cor-roxo: #16074d;
+  --cor-salmao: #ff6a64;
+  font-family: "Montserrat", sans-serif;
+}
+
+.h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 800;
+}
+
+.h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.paragrafo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.subtitul-maior {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.subtitulo-menor {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 8px 0px;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cor-branca {
+  color: var(--cor-texto-branca);
+}
+.cor-preta {
+  color: var(--cor-texto-preta);
+}
+.cor-rosa {
+  color: var(--cor-rosa-choque);
+}
+.cor-roxa {
+  color: var(--cor-roxo);
+}
+.cor-verde {
+  color: var(--cor-verde);
+}
+.cor-salmao {
+  color: va;
+}
+
+.botao {
+  color: var(--cor-texto-branca);
+  background: var(--cor-destaque);
+  display: inline-flex;
+  gap: 8px;
+  padding: 8px 32px;
+  border-radius: 56px;
+  max-width: max-content;
+  z-index: 20;
+}
+
+.cor-bg-branca {
+  background-color: var(--cor-texto-branca);
+}
+.cor-bg-preta {
+  background-color: var(--cor-texto-preta);
+}
+.cor-bg-rosa {
+  background-color: var(--cor-rosa-choque);
+}
+.cor-bg-roxa {
+  background-color: var(--cor-roxo);
+}
+.cor-bg-verde {
+  background-color: var(--cor-verde);
+}
+.cor-bg-salmao {
+  background-color: var(--cor-salmao);
+}
+footer {
+  background: #FFC145;
+  padding: 8px;
+  text-align: center;
+  color: var(--cor-texto-branca);
+}

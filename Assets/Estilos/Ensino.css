@@ -1,0 +1,64 @@
+.ensino {
+    padding: 65px 0px;
+    text-align: center;
+    position: relative;
+}
+.ensino::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: url("../Img/Icons/logotipo1.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    bottom: -110px;
+}
+.header-ensino p {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 8px;
+}
+.container-nivel {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.conteudo-nivel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.conteudo-nivel p, h3 {
+    text-align: left;
+}
+.grid-niveis {
+    padding: 60px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 72px;
+}
+
+@media (max-width: 800px) {
+    .header-ensino {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .grid-niveis {
+        grid-template-columns: 1fr;
+        padding: 48px 16px;
+      }
+      .container-nivel {
+        align-items: center;
+      }
+      .ensino::after {
+        width: 150px;
+        height: 150px;
+        right: 50%;
+        left: 40%;
+        bottom: -80px;
+      }
+}
